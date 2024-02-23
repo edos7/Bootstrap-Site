@@ -1,0 +1,37 @@
+<!-- Contact Us Page -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us</title>
+</head>
+<body>
+
+<header>
+    <h1>Contact Us</h1>
+</header>
+
+<nav>
+    <a href="/">Home</a>
+    <a href="/about">About</a>
+    <a href="/contact">Contact Us</a>
+</nav>
+
+<div class="container">
+    <form action="submit.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="subject">Subject:</label>
+        <input type="radio" id="subject1" name="subject" value="General" checked>
+        <label for="subject1">General</label>
+        <input type="radio" id="subject2" name="subject" value="Support">
+        <label for="subject2">Support</label><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+</div>
+
+
+</body>
+</html>
